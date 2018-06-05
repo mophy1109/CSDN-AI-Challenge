@@ -188,7 +188,7 @@ with tf.Session() as sess:
 
 if validate_accuracy >=0.98:
     score = 100
-if validate_accuracy >=0.96 and validate_accuracy <0.98 :
+elif validate_accuracy >=0.96 and validate_accuracy <0.98 :
     score = 60
 else:
     score = 0
